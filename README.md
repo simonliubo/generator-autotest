@@ -1,4 +1,4 @@
-# Generator TalentJS
+# Generator AutoTest
 A generator for AutoTest Framework
 
 ## Dependencies
