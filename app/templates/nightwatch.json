@@ -1,0 +1,306 @@
+{
+    "src_folders" : ["./case"],
+    "output_folder" : "./reports",
+    "custom_commands_path" : "./commands",
+    "custom_assertions_path" : "./assertions",
+    "globals_path" : "./globals.json",
+    "live_output" : false,
+
+    "selenium" : {
+        "start_process" : true,
+        "server_path" : "",
+        "log_path" : "",
+        "host" : "127.0.0.1",
+        "port" : 4444,
+        "cli_args" : {
+            "webdriver.chrome.driver" : "",
+            "webdriver.ie.driver" : "",
+            "webdriver.firefox.profile" : ""
+        }
+    },
+
+    "test_settings" : {
+
+        "localhost" : {
+            "launch_url" : "http://teacher.gongzuohui.com",
+            "selenium_host" : "127.0.0.1",
+            "selenium_port" : 4444,
+            "silent" : true,
+            "disable_colors": false,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : "./screenshots"
+            },
+            "fullScreen": true,
+            "desiredCapabilities" : {
+                "browserName" : "chrome",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true,
+                "chromeOptions": {
+                    "args": [
+                        "--start-maximized",
+                        "--window-size=1366,768"
+                    ]
+                }
+            }
+        },
+
+        "xp-firefox-wanghui" : {
+            "launch_url" : "http://teacher.gongzuohui.com",
+            "selenium_host" : "10.129.7.72",
+            "selenium_port" : 4100,
+            "silent" : true,
+            "disable_colors": false,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : "./screenshots"
+            },
+            "username": "wanghui",
+            "access_key": "wanghui123456",
+            "desiredCapabilities" : {
+                "platform": "XP",
+                "browserName" : "firefox",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true
+            }
+        },
+
+        "xp-chrome-liubo" : {
+            "launch_url" : "http://teacher.gongzuohui.com",
+            "selenium_host" : "10.129.7.72",
+            "selenium_port" : 4000,
+            "silent" : true,
+            "disable_colors": false,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : "./screenshots"
+            },
+            "username": "liubo",
+            "access_key": "liubo123456",
+            "desiredCapabilities" : {
+                "platform": "XP",
+                "browserName" : "chrome",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true,
+                "chromeOptions": {
+                    "args": [
+                        "--start-maximized",
+                        "--window-size=1366,768"
+                    ]
+                }
+            }
+        },
+
+        "xp-chrome-wanghui" : {
+            "launch_url" : "http://teacher.gongzuohui.com",
+            "selenium_host" : "10.129.7.72",
+            "selenium_port" : 4100,
+            "silent" : true,
+            "disable_colors": false,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : "./screenshots"
+            },
+            "username": "wanghui",
+            "access_key": "wanghui123456",
+            "desiredCapabilities" : {
+                "platform": "XP",
+                "browserName" : "chrome",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true,
+                "chromeOptions": {
+                    "args": [
+                        "--start-maximized",
+                        "--window-size=1366,768"
+                    ]
+                }
+            }
+        },
+
+        "win7-ie-liubo" : {
+            "launch_url" : "http://teacher.gongzuohui.com",
+            "selenium_host" : "10.129.7.72",
+            "selenium_port" : 4000,
+            "silent" : true,
+            "disable_colors": false,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : "./screenshots"
+            },
+            "desiredCapabilities" : {
+                "platform": "VISTA",
+                "browserName" : "internet explorer",
+                "browserVersion": "11",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true
+            }
+        },
+
+        "win7-chrome-liubo" : {
+            "launch_url" : "http://teacher.gongzuohui.com",
+            "selenium_host" : "10.129.7.72",
+            "selenium_port" : 4000,
+            "silent" : true,
+            "disable_colors": false,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : "./screenshots"
+            },
+            "desiredCapabilities" : {
+                "platform": "VISTA",
+                "browserName" : "chrome",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true,
+                "chromeOptions": {
+                    "args": [
+                        "--start-maximized",
+                        "--window-size=1366,768"
+                    ]
+                }
+            }
+        },
+
+        "win7-ie-wanghui" : {
+            "launch_url" : "http://teacher.gongzuohui.com",
+            "selenium_host" : "10.129.7.72",
+            "selenium_port" : 4100,
+            "silent" : true,
+            "disable_colors": false,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : "./screenshots"
+            },
+            "desiredCapabilities" : {
+                "platform": "VISTA",
+                "browserName" : "internet explorer",
+                "browserVersion": "8",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true
+            }
+        },
+
+        "win7-chrome-wanghui" : {
+            "launch_url" : "http://teacher.gongzuohui.com",
+            "selenium_host" : "10.129.7.72",
+            "selenium_port" : 4100,
+            "silent" : true,
+            "disable_colors": false,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : "./screenshots"
+            },
+            "desiredCapabilities" : {
+                "platform": "VISTA",
+                "browserName" : "chrome",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true,
+                "chromeOptions": {
+                    "args": [
+                        "--start-maximized",
+                        "--window-size=1366,768"
+                    ]
+                }
+            }
+        },
+
+        "win8-ie-liubo" : {
+            "launch_url" : "http://teacher.gongzuohui.com",
+            "selenium_host" : "10.129.7.72",
+            "selenium_port" : 4000,
+            "silent" : true,
+            "disable_colors": false,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : "./screenshots"
+            },
+            "desiredCapabilities" : {
+                "platform": "WIN8",
+                "browserName" : "internet explorer",
+                "browserVersion": "11",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true
+            }
+        },
+
+        "win8-chrome-liubo" : {
+            "launch_url" : "http://teacher.gongzuohui.com",
+            "selenium_host" : "10.129.7.72",
+            "selenium_port" : 4000,
+            "silent" : true,
+            "disable_colors": false,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : "./screenshots"
+            },
+            "desiredCapabilities" : {
+                "platform": "WIN8",
+                "browserName" : "chrome",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true,
+                "chromeOptions": {
+                    "args": [
+                        "--start-maximized",
+                        "--window-size=1366,768"
+                    ]
+                }
+            }
+        },
+
+        "win8-firefox" : {
+            "launch_url" : "http://teacher.gongzuohui.com",
+            "selenium_host" : "10.129.7.72",
+            "selenium_port" : 4000,
+            "silent" : true,
+            "disable_colors": false,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : "./screenshots"
+            },
+            "desiredCapabilities" : {
+                "platform": "WIN8",
+                "browserName" : "firefox",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true
+            }
+        },
+
+        "win8-chrome" : {
+            "launch_url" : "http://teacher.gongzuohui.com",
+            "selenium_host" : "10.129.7.72",
+            "selenium_port" : 4000,
+            "silent" : true,
+            "disable_colors": false,
+            "screenshots" : {
+                "enabled" : false,
+                "path" : "./screenshots"
+            },
+            "desiredCapabilities" : {
+                "platform": "WIN8",
+                "browserName" : "chrome",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true
+            }
+        },
+
+        "BS" : {
+            "selenium" : {
+                "start_process" : true
+            },
+            "selenium_host" : "hub.browserstack.com",
+            "selenium_port" : 80,
+            "silent" : true,
+            "desiredCapabilities": {
+                "name" : "test-example",
+                "platform": "WIN8",
+                "browserName": "chrome",
+                "javascriptEnabled": true,
+                "acceptSslCerts": true,
+                "browserstack.user" : "liubo3",
+                "browserstack.key" : "gQMoxFM2Aq6wqbbrxjEM",
+                "browserstack.debug": true
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,75 @@
+{
+    "localhost" : {
+        "loginname": "wang_hui_er@163.com"
+        ,"password": "111111"
+        ,"username": "wanghui"
+        ,"email": "wang_hui_er@163.com"
+
+    },
+    "xp-firefox-liubo" : {
+        "loginname": "wang_hui_er@163.com"
+        ,"password": "111111"
+        ,"username": "wanghui"
+        ,"email": "wang_hui_er@163.com"
+    },
+     "xp-chrome-liubo" : {
+        "loginname": "wang_hui_er@163.com"
+        ,"password": "111111"
+        ,"username": "wanghui"
+        ,"email": "wang_hui_er@163.com"
+    },
+     "xp-firefox-wanghui" : {
+        "loginname": "wang_hui_er@163.com"
+        ,"password": "111111"
+        ,"username": "wanghui"
+        ,"email": "wang_hui_er@163.com"
+    },
+    "xp-chrome-wanghui" : {
+        "loginname": "wang_hui_er@163.com"
+        ,"password": "111111"
+        ,"username": "wanghui"
+        ,"email": "wang_hui_er@163.com"
+    },
+    "win7-chrome-wanghui" : {
+        "loginname": "wang_hui_er@163.com"
+        ,"password": "111111"
+        ,"username": "wanghui"
+        ,"email": "wang_hui_er@163.com"
+    },
+    "win7-chrome-liubo" : {
+        "loginname": "wang_hui_er@163.com"
+        ,"password": "111111"
+        ,"username": "wanghui"
+        ,"email": "wang_hui_er@163.com"
+    },
+     "win7-ie-liubo" : {
+        "loginname": "wang_hui_er@163.com"
+        ,"password": "111111"
+        ,"username": "wanghui"
+        ,"email": "wang_hui_er@163.com"
+    },
+    "win7-ie-wanghui" : {
+        "loginname": "wang_hui_er@163.com"
+        ,"password": "111111"
+        ,"username": "wanghui"
+        ,"email": "wang_hui_er@163.com"
+    },
+    "win8-ie-liubo" : {
+        "loginname": "wang_hui_er@163.com"
+        ,"password": "111111"
+        ,"username": "wanghui"
+        ,"email": "wang_hui_er@163.com"
+    },
+    "win8-chrome-liubo" : {
+        "loginname": "wang_hui_er@163.com"
+        ,"password": "111111"
+        ,"username": "wanghui"
+        ,"email": "wang_hui_er@163.com"
+    },
+    "browserstack" : {
+        "loginname": "wang_hui_er@163.com"
+        ,"password": "111111"
+        ,"username": "wanghui"
+        ,"email": "wang_hui_er@163.com"
+    }
+}

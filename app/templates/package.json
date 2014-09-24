@@ -1,0 +1,18 @@
+{
+    "author": "Beisen AutoTest Team",
+    "description": "Beisen TMS Auto Test",
+    "name": "generator-autotest",
+    "version": "0.0.1",
+    "dependencies": {
+        "nightwatch": "~0.5.10",
+        "grunt": "~0.4.1",
+        "grunt-convert": "~0.1.11",
+        "grunt-contrib-connect": "~0.5.0"
+    },
+    "devDependencies": {
+        "nodeunit": "latest",
+        "jshint": "~2.4.4",
+        "jsonlint": "~1.6.0",
+        "grunt-merge-json": "^0.9.4"
+    }
+}

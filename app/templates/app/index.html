@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>测试报告</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
+
+
+</head>
+<body>
+
+<script type="text/javascript" src="components/jquery/dist/jquery.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script type="text/javascript" src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="components/underscore/underscore.js"></script>
+<script type="text/javascript">
+
+    var resultTemplate ='<ul class="list-group">' +
+            '<%_.each(data, function(value, key){%>' +
+            '<li>用例名称：<%=key%></li>' +
+            '<li>' +
+                '<ul class="list-group">' +
+                '<a href="#" class="list-group-item active"><%=value.testsuites.name%></a>' +
+                    '<% if(!_.isArray(value.testsuites.testsuite)){%>' +
+                        '<li class="list-group-item"><span class="badge"><%=value.testsuites.testsuite.failures%></span>1.<%=value.testsuites.testsuite.name%></li>'+
+                        '<% if(_.has(value.testsuites.testsuite, "system-err")){%>' +
+                        '<li class="list-group-item">系统错误：<%-value.testsuites.testsuite["system-err"]%></li>' +
+                        '<%}%>' +
+
+                    '<%}else{%>' +
+                        '<%_.each(value.testsuites.testsuite, function(item, idx, list){  %>'+
+                        '<li class="list-group-item"><span class="badge"><%=item.failures%></span><%=idx+1%>.<%=item.name%></li>'+
+                        '<% if(_.has(item, "system-err")){%>' +
+                        '<li class="list-group-item">系统错误：<%-item["system-err"]%></li>' +
+                        '<%}%>' +
+                        '<% if(_.has(item, "testcase")){%>' +
+                        '<li class="list-group-item">' +
+
+                            '<ul>'+
+                                '<% if(!_.isArray(item.testcase)){%>' +
+                                    '<li class="list-group-item"><%=item.testcase.name%></li>' +
+                                '<%}else{%>' +
+                                    '<%_.each(item.testcase, function(citem, idx, clist){%>' +
+                                        '<li class="list-group-item"><%=idx+1%>.<%=citem.name%></li>' +
+                                    '<%})%>'+
+                                '<%}%>'+
+                            '</ul>' +
+                        '</li>' +
+                        '<%}%>' +
+                        '<%})%>' +
+
+                    '<%}%>' +
+                '<div class="row alert alert-success" role="alert">' +
+                    '<span class="col-xs-6">错误总数：<%=value.testsuites["errors"]%></span>' +
+                    '<span class="col-xs-6">失败总数：<%=value.testsuites["failures"]%></span>' +
+                '</div>'+
+                '</ul>' +
+            '</li>' +
+            '<%})%>' +
+            '</ul>';
+
+    $.getJSON("http://localhost:8000/result/all.json", function(resp){
+        console.log(resp)
+        var template = _.template(resultTemplate, {data:resp});
+
+        $("body").append(template);
+    })
+
+</script>
+
+</body>
+</html>
