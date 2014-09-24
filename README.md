@@ -22,5 +22,4 @@ A generator for AutoTest Framework
 	`yo talent:page about/users`
 
 ## License
-
 MIT
