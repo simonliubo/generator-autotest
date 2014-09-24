@@ -17,9 +17,5 @@ A generator for AutoTest Framework
 - run generator
 	`yo autotest`
 
-## Creating case
-- create case
-	`yo talent:page about/users`
-
 ## License
 MIT
