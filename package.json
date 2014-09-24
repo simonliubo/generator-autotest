@@ -1,31 +1,31 @@
 {
-    "author": {
-        "name": "liubo",
-        "email": "shenxian@163.com",
-        "url": ""
-    },
-    "description": "Beisen TMS Auto Test",
-    "name": "generator-autotest",
-    "version": "0.0.1",
-    "keywords": [
-        "yeoman-generator",
-        "autotest"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/simonliubo/generator-autotest"
-    },
-    "dependencies": {
-        "yeoman-generator": "^0.17.6",
-        "nightwatch": "~0.5.10",
-        "grunt": "~0.4.1"
-    },
-        "devDependencies": {
-        "nodeunit": "latest",
-        "jshint": "~2.4.4",
-        "jsonlint": "~1.6.0",
-        "grunt-convert": "~0.1.11",
-        "grunt-contrib-connect": "~0.5.0",
-        "grunt-merge-json": "^0.9.4"
-    }
+  "author": {
+    "name": "liubo",
+    "email": "shenxian@163.com",
+    "url": "https://github.com/simonliubo"
+  },
+  "description": "Beisen TMS Auto Test",
+  "name": "generator-autotest",
+  "version": "0.0.1",
+  "keywords": [
+    "yeoman-generator",
+    "autotest"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonliubo/generator-autotest"
+  },
+  "dependencies": {
+    "yeoman-generator": "^0.17.6",
+    "nightwatch": "~0.5.10",
+    "grunt": "~0.4.1"
+  },
+  "devDependencies": {
+    "nodeunit": "latest",
+    "jshint": "~2.4.4",
+    "jsonlint": "~1.6.0",
+    "grunt-convert": "~0.1.11",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-merge-json": "^0.9.4"
+  }
 }
