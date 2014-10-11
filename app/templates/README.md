@@ -37,29 +37,31 @@ grunt read-report
 #### win7-ie10系统IP : 10.129.7.65
 #### win8-ie11系统IP : 10.129.7.78
 
-nightwatch.json配置：
-"win7-chrome-wanghui" : {
-    "launch_url" : "http://teacher.gongzuohui.com",  //测试网址
-    "selenium_host" : "10.129.7.72",				 //hub服务器
-    "selenium_port" : 4100,							 //端口
-    "silent" : true,
-    "disable_colors": false,
-    "screenshots" : {
-        "enabled" : false,
-        "path" : "./screenshots"
-    },
-    "desiredCapabilities" : {
-        "platform": "VISTA",
-        "browserName" : "chrome",					 //指定浏览器
-        "javascriptEnabled" : true,
-        "acceptSslCerts" : true
+nightwatch.json配置
+
+    "win7-chrome-wanghui" : {
+        "launch_url" : "http://teacher.gongzuohui.com",  //测试网址
+        "selenium_host" : "10.129.7.72",				 //hub服务器
+        "selenium_port" : 4100,							 //端口
+        "silent" : true,
+        "disable_colors": false,
+        "screenshots" : {
+            "enabled" : false,
+            "path" : "./screenshots"
+        },
+        "desiredCapabilities" : {
+            "platform": "VISTA",
+            "browserName" : "chrome",					 //指定浏览器
+            "javascriptEnabled" : true,
+            "acceptSslCerts" : true
+        }
     }
-}
 
 global.json配置
+
     "win7-chrome-wanghui" : {
-    	"loginname": "aaaaa@163.com"			//系统登录用户名
-    	,"password": "111111"		            //系统登录密码
-   	 	,"username": "wanghui" 		            //用户名
-    	,"email": "aaaaa@163.com"		        //用户邮箱
+        "loginname": "aaaaa@163.com"			//系统登录用户名
+        ,"password": "111111"		            //系统登录密码
+        ,"username": "wanghui" 		            //用户名
+        ,"email": "aaaaa@163.com"		        //用户邮箱
     }
