@@ -65,3 +65,21 @@ global.json配置
         ,"username": "wanghui" 		            //用户名
         ,"email": "aaaaa@163.com"		        //用户邮箱
     }
+
+## 六、端口分配
+4000            liubo
+
+C4系统
+4100            wanghui
+
+Tita
+5000            sujie
+
+招聘系统
+6000            kangyanyan
+
+继任&绩效系统
+7000            chenbinlan
+
+工具类产品
+8000            yiweiyi
