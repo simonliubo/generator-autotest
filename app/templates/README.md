@@ -68,6 +68,7 @@ nightwatch.json配置
         "desiredCapabilities" : {
             "platform": "VISTA",
             "browserName" : "chrome",					 //指定浏览器
+            "version": "11",                             //指定版本号
             "javascriptEnabled" : true,
             "acceptSslCerts" : true
         }
