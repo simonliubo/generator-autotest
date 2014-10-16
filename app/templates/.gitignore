@@ -5,8 +5,6 @@
 /screenshots/*.png
 /server
 /reports/*
-/globals.json
-/nightwatch.json
 /app/result
 /app/components
 /app/source
