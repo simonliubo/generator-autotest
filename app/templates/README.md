@@ -93,7 +93,8 @@ Tita
 5000            sujie
 
 招聘系统
-6000            kangyanyan
+6001            kangyanyan
+6002            yicui
 
 继任&绩效系统
 7000            chenbinlan
