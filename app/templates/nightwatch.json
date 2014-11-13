@@ -3,7 +3,7 @@
     "output_folder" : "./reports",
     "custom_commands_path" : "./commands",
     "custom_assertions_path" : "./assertions",
-    "globals_path" : "./globals.json",
+    "globals_path" : "./globals.js",
     "live_output" : false,
 
     "selenium" : {
