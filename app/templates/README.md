@@ -46,12 +46,12 @@ nightwatch -e/env 环境名称 --tag 标签名 (eg: nightwatch -e win7-chrome-wa
 grunt read-report
 
 ## 五、远程服务器
-#### hub服务器: 10.129.7.72
-#### xp系统IP : 10.129.7.49
-#### win7-ie8系统IP : 10.129.7.22
-#### win7-ie9系统IP : 10.129.7.13
-#### win7-ie10系统IP : 10.129.7.65
-#### win8-ie11系统IP : 10.129.7.78
+#### hub服务器: 10.129.7.217
+#### xp系统IP : 10.129.7.218
+#### win7-ie8系统IP : 10.129.7.219
+#### win7-ie9系统IP : 10.129.7.220
+#### win7-ie10系统IP : 10.129.7.221
+#### win8-ie11系统IP : 10.129.7.222
 
 nightwatch.json配置
 
