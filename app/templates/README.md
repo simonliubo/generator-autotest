@@ -4,7 +4,7 @@
 ## 一、安装环境
 1.安装nodejs：http://www.nodejs.org/
 
-2.安装git：http://ux.beisen.co/redmine/projects/ux-infrastructure/wiki/Git%E5%8F%8A%E9%85%8D%E7%BD%AE
+2.安装git：
 
 3.安装nightwatch,git bash输入：npm install -g nightwatch
 
@@ -56,7 +56,7 @@ grunt read-report
 nightwatch.json配置
 
     "win7-chrome-wanghui" : {
-        "launch_url" : "http://teacher.gongzuohui.com",  //测试网址
+        "launch_url" : "http://teacher.xx.com",  //测试网址
         "selenium_host" : "10.129.7.72",				 //hub服务器
         "selenium_port" : 4100,							 //端口
         "silent" : true,
@@ -77,10 +77,10 @@ nightwatch.json配置
 global.json配置
 
     "win7-chrome-wanghui" : {
-        "loginname": "aaaaa@163.com"			//系统登录用户名
-        ,"password": "111111"		            //系统登录密码
-        ,"username": "wanghui" 		            //用户名
-        ,"email": "aaaaa@163.com"		        //用户邮箱
+        "loginname": "xxx"			//系统登录用户名
+        ,"password": "xxx"		            //系统登录密码
+        ,"username": "xxx" 		            //用户名
+        ,"email": "xxx@163.com"		        //用户邮箱
     }
 
 ## 六、端口分配
