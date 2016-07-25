@@ -22,7 +22,7 @@
     "test_settings" : {
 
         "localhost" : {
-            "launch_url" : "http://teacher.gongzuohui.com",
+            "launch_url" : "http://teacher.xxx.com",
             "selenium_host" : "127.0.0.1",
             "selenium_port" : 4444,
             "silent" : true,
@@ -46,7 +46,7 @@
         },
 
         "xp-firefox-liubo" : {
-            "launch_url" : "http://teacher.gongzuohui.com",
+            "launch_url" : "http://teacher.xxx.com",
             "selenium_host" : "10.129.7.72",
             "selenium_port" : 4000,
             "silent" : true,
@@ -64,7 +64,7 @@
         },
 
         "xp-chrome-liubo" : {
-            "launch_url" : "http://teacher.gongzuohui.com",
+            "launch_url" : "http://teacher.xxx.com",
             "selenium_host" : "10.129.7.72",
             "selenium_port" : 4000,
             "silent" : true,
@@ -82,7 +82,7 @@
         },
 
         "win7-ie-liubo" : {
-            "launch_url" : "http://teacher.gongzuohui.com",
+            "launch_url" : "http://teacher.xxx.com",
             "selenium_host" : "10.129.7.72",
             "selenium_port" : 4000,
             "silent" : true,
